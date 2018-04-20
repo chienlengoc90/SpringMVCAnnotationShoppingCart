@@ -1,0 +1,4 @@
+org\o7planning\springmvcshoppingcart\config\ApplicationContextConfig.class
+org\o7planning\springmvcshoppingcart\controller\MainController.class
+org\o7planning\springmvcshoppingcart\config\SpringWebAppInitializer.class
+org\o7planning\springmvcshoppingcart\config\WebMvcConfig.class

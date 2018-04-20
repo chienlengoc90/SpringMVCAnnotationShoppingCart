@@ -54,6 +54,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 				// Config for Logout Page
 				// (Go to home page).
 				.and().logout().logoutUrl("/logout").logoutSuccessUrl("/");
+
 		http.authorizeRequests().and().sessionManagement().invalidSessionUrl("/login");
 	}
 }

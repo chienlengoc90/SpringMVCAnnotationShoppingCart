@@ -5,6 +5,7 @@ import java.util.Properties;
 import javax.sql.DataSource;
  
 import org.hibernate.SessionFactory;
+import org.modelmapper.ModelMapper;
 import org.o7planning.springmvcshoppingcart.dao.AccountDAO;
 import org.o7planning.springmvcshoppingcart.dao.OrderDAO;
 import org.o7planning.springmvcshoppingcart.dao.ProductDAO;
@@ -129,6 +130,11 @@ public class ApplicationContextConfig {
     @Bean(name = "accountDAO")
     public AccountDAO getAccountDAO()  {
         return new AccountDAOImpl();
+    }
+    
+	@Bean
+    public ModelMapper modelMapper() {
+        return new ModelMapper();
     }
  
 }

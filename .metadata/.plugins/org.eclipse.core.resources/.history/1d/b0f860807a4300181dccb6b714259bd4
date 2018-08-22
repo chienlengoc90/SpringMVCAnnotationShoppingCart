@@ -1,7 +1,0 @@
-package org.o7planning.springmvcshoppingcart.dao.impl;
-
-import org.o7planning.springmvcshoppingcart.dao.OrderDAO;
-
-public class OrderDAOImpl implements OrderDAO {
-
-}

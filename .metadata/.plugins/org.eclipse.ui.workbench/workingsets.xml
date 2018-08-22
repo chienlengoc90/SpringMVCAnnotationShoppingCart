@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<workingSetManager>
-<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1524181233437_1" label="news-project" name="news-project">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/news-project" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/news-web" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/news-core" type="4"/>
-</workingSet>
-<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1524106761322_0" label="Window Working Set" name="Aggregate for window 1524106761322"/>
-</workingSetManager>
